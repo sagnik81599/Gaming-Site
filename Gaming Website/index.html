@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Frijole&family=Mochiy+Pop+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="game_logo/Logo png.png">
+    
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="style.css">
+    <title>GamingZone</title>
+</head>
+<body>
+
+    <!-- main page content -->
+
+   <div class="warpper">
+    <header>
+        <nav class="navbar">
+            <span class="hamburger-btn material-symbols-rounded hambargar">menu</span>
+            <a href="#8u98" class="logo">
+                <img src="game_logo/Logo png.png" alt="Logo">
+            </a>
+            <ul class="links">
+                <span class="close-btn material-symbols-rounded">close</span>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-section">About us</a></li>
+                <li><a href="#popular_games">Popular game</a></li>
+                <li><a href="#Gaming_Esports" class="link">Gaming Esports</a></li>
+                <li><a href="#footer">Contact us</a></li>
+            </ul>
+            <button class="login-btn">LOG IN</button>
+        </nav>
+    </header>
+
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <div class="form-box login">
+            <div class="form-details">
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="#786" class="forgot-pass-link">Forgot password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Don't have an account?
+                    <a href="#8764" id="signup-link">Signup</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+            </div>
+            <div class="form-content">
+                <h2>SIGNUP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Create password</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Confirm password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I agree the
+                            <a href="#" class="option">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already have an account? 
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content1">
+        <div class="article">
+        <h1>Explore<br><span>A New Career</span></h1>
+        <p>Explore a variety of gaming content and Update Esports Events</p> 
+        <div class="Button">  
+        <a href="#about-section">Explore Now</a>
+          </div>
+        </div>  
+    </div>
+    </div>
+    
+    
+    
+
+<!-- <---------------------------------------------------------------> 
+
+
+<!-- section - part -->
+<section id="about-section">
+    <div class="about-us">
+		<div class="wrapper2">
+			<div class="content2">
+				<h2>Our Vision
+				</h2>
+				<p>
+                    Welcome to My gamesite, your ultimate destination for everything gaming! Our mission is to create a vibrant community where gamers of all levels can come together to
+                     share their passion for video games, discover new titles, and stay updated on the latest industry news.
+                     also We believe that gaming is more than just a hobby; it's a way of life. We aim to provide a platform that not only showcases the best games but also fosters connections among gamers.
+				</p>
+				<div class="btn">
+					<a href="#676">read more</a>
+				</div>
+			</div>
+			<div class="img-sec">
+				<img src="https://tse1.mm.bing.net/th?id=OIP.xE8feb63nj4-cufRshhfIgHaE7&pid=Api"  >
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- <----------------------------------------------------------> 
+
+
+<!-- popular section part -->
+<section id="popular_games">
+    <div class="games">
+     <ul>
+        <li class="list active" data-filter="all">All</li>
+        <li class="list" data-filter="pc">PC Games</li>
+        <li class="list"  onclick="mobile()"   data-filter="mobile">Moblie Games</li>
+     </ul>   
+
+     <div class="cardBx">
+        <div class="card" data-items="pc">
+            <img src="cardimg/GTA.png" height="230px">
+            <div class="content">
+                <h4>GTA V</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$20</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/Cyberpunk.png" height="230px" >
+            <div class="content">
+                <h4>CYBER PUNK</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$10</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="card" data-items="pc">
+            <img src="cardimg/Valorant2.png" height="230px" width="230px">
+            <div class="content">
+                <h4>VALORENT</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>   
+        
+        <div class="card" data-items="pc">
+            <img src="cardimg/counter-strike-global.png" height="230px" width="230px">
+            <div class="content">
+                <h4>COUNTER STRIKE</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="card" data-items="pc">
+            <img src="cardimg/call_of_duty.png" height="230px" width="230px">
+            <div class="content">
+                <h4>Call of Duty</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$40</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>    
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/subnautica_macos.png" height="230px" width="230px">
+            <div class="content">
+                <h4>SUBNAUTICA</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$30</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>    
+
+        <div class="card" data-items="pc">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.70pqqWsZA-dnb4U55AUI_QHaHa&pid=Api&P=0&h=180" height="230px" width="230px">
+            <div class="content">
+                <h4>Apex Legends</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>  
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/Project-Winter.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>Project Winter</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$9.99</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/league of legends.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>League Of Legends</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/forza-horizon-5-.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>Forza Horizon V</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$10.2</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/God_of_War_4_cover.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>God Of War</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$10.90</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/Street Fighter 6.avif" height="230px" width="230px">
+            <div class="content">
+                <h4>Street Fighter 6</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$9.90</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/Elder Ring.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>Elder Ring</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$4.60</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="card" data-items="pc">
+            <img src="cardimg/genshin-impact-poster-1.avif" height="230px" width="230px">
+            <div class="content">
+                <h4>Genish Impact</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+
+   
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/fornite.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>FORNITE</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/once-human.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>Once Human</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$10.59</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="card" data-items="pc">
+            <img src="cardimg/final-fantasy.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>Final Fantasy XVI</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$4.99</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/OVERWATCH.webp" height="230px" width="230px">
+            <div class="content">
+                <h4>OverWatch</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/dota-2.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>Dota 2</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$3.9</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+
+
+        
+        <div class="card" data-items="pc">
+            <img src="cardimg/path of exxile.avif" height="230px" width="230px">
+            <div class="content">
+                <h4>Path Of Exxile</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$12</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/endling-2021.png" height="230px" width="230px">
+            <div class="content">
+                <h4>ENDLING</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$6.59</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/Warframe.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>WARFRAME</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$7.12</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="card" data-items="pc">
+            <img src="cardimg/trainsim4.webp" height="230px" width="230px">
+            <div class="content">
+                <h4>Train Sim World 4</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$9.45</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="card" data-items="pc">
+            <img src="cardimg/wwzAfterDeluxe.jpeg" height="230px" width="230px">
+            <div class="content">
+                <h4>World War AFTERMATH</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$14.09</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+        
+
+
+
+        <div class="card" data-items="pc">
+            <img src="cardimg/RED DEAD 2.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>RED DEAD 2</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>pricing<br><span>$3.79</span></p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="card" data-items="moblie">
+            <img src="cardimg/bgmi.png" height="230px" width="230px">
+            <div class="content">
+                <h4>BGMI</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>    
+
+        <div class="card" data-items="moblie">
+            <img src="cardimg/Royal Revoly II.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>Royal Revolt II</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="card" data-items="moblie">
+            <img src="cardimg/clash-of-clans-.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>Clash of Clans</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-items="moblie">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.7lG_Px_z5vTcx_33ojiQqQHaHa&pid=Api&P=0&h=180" height="230px" width="230px">
+            <div class="content">
+                <h4>Call Of Duty Mobile</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+       
+        <div class="card" data-items="moblie">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.wdLsjfWc3enYfqR6zs3dOQHaHa&pid=Api&P=0&h=180" height="230px" width="230px">
+            <div class="content">
+                <h4>Free Fire</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+
+         <div class="card" data-items="moblie">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.lohU_Fq0mmPZzM-A5wvmOAHaEK&pid=Api&P=0&h=180" height="230px" width="230px">
+            <div class="content">
+                <h4>Among Us</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-items="moblie">
+            <img src="cardimg/Minecraft.jpg" height="230px" width="230px">
+            <div class="content">
+                <h4>Minecraft</h4>
+                <div class="progress-line"><span></span></div>
+                <div class="info">
+                    <p>Free</p>
+                    <a href="#play now">play Now</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>    
+</section>
+
+
+
+
+
+<!-- Tournament part -->
+
+<section id="Gaming_Esports">
+<div class="tournaments"> 
+<div class="boxBx">
+    <div class="Box">
+        <img src="tourny card/BGMI.webp"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>40</span>Matches in progress</h4>
+            <p>Battlegrounds Mobile India, or BGMI, is a TPP-FPP survival shooter game in which up to 100 players compete in.</p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/@kraftonindiaesports" class="watch">watch</a>
+            </div>
+            <div class="btn2">
+                  <a href="https://www.battlegroundsmobileindia.com/" class="moreinfo">More info</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/omen-valorant-pc-games-2020-games-3840x2160-1268 (2).jpg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>55</span>Matches in progress</h4>
+            <p>Valorant was developed and published by Riot Games, the studio behind League of Legends.</p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/watch?v=2e31goWp8to" class="watch">watch</a>
+            </div>
+            <div class="btn2">
+                  <a href="https://playvalorant.com/en-gb" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/call-of-duty-mobile-50.jpg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>25</span>Matches in progress</h4>
+            <p>Call of Duty, also referred to as is a video game series and media franchise published by Activision, starting in 2003. </p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/watch?v=vU63yuKSTcg" class="watch">watch</a>
+            
+            </div>
+            <div class="btn2">
+                  <a href="https://www.callofduty.com/mobile" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/free-fire-wallpaper-4.webp"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>34</span>Matches in progress</h4>
+            <p>Free Fire is a free to play battle royale game developed and published by Garena for Android and iOS.[2] It was released on 8 December 2017. </p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/watch?v=5x8vvKlwWsU" class="watch">watch</a>
+                
+            </div>
+            <div class="btn2">
+                  <a href="https://ff.garena.com/en" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/gta.jpeg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>48</span>Matches in progress</h4>
+            <p>Grand Theft Auto V is  developed by Rockstar North and published by Rockstar Games.
+                In GTA, the game's online multiplayer mode.</p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/watch?v=9Iq6gs83Ps4" class="watch">watch</a>
+              
+            </div>
+            <div class="btn2">
+                  <a href="https://www.rockstargames.com/gta-v" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/Counter-Strike-Global-Offensive-Free-Download-1.jpg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>22</span>Matches in progress</h4>
+            <p>Counter-Strike is a series of multiplayer tactical first-person shooter
+                video games in which teams of terrorists battle to perpetrate an act of terror </p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/live/pc-9WCVKdnw?si=w3ivWlXBY4Q6kEFw" class="watch">watch</a>
+            </div>
+            <div class="btn2">
+                  <a href="https://www.counter-strike.net/" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/dota2_social.jpg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>25</span>Matches in progress</h4>
+            <p>Dota 2 is a 2013 multiplayer online battle arena video game by Valve.
+                 The game is a community created for Blizzard Entertainment's Warcraft III</p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/@dota2" class="watch">watch</a>
+              
+            </div>
+            <div class="btn2">
+                  <a href="https://www.dota2.com/home" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/clash of clan.jpg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>30</span>Matches in progress</h4>
+            <p>Clash of Clans is a  massively multiplayer online strategy game developed by Supercell. 
+               battle against millions of players worldwide. </p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/live/7gqj5tAKc5M?si=w373BUQG1jCwdBzF" class="watch">watch</a>
+            </div>
+            <div class="btn2">
+                  <a href="https://supercell.com/en/games/clashofclans" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/overwatch.jpg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>13</span>Matches in progress</h4>
+            <p>Overwatch is a multimedia franchise centered on a series of multiplayer first-person shooter 
+                video games developed by Blizzard Entertainment.</p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/watch?v=DM8LUo9hC0U" class="watch">watch</a>
+            </div>
+            <div class="btn2">
+                  <a href="https://overwatch.blizzard.com/en-gb/" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/clash-royale.jpg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>16</span>Matches in progress</h4>
+            <p>Clash Royale is a real-time strategy video game developed. 
+                The game combines elements from collectible card games, and multiplayer online battle arena. </p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/watch?v=RYo3CTzIr2E" class="watch">watch</a>
+            </div>
+            <div class="btn2">
+                  <a href="https://supercell.com/en/games/clashroyale/" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/apex-legends-1-1.jpg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>11</span>Matches in progress</h4>
+            <p>Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn
+                 Entertainment and published by Electronic Arts. </p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/live/OPOrOxTwXco?si=FULUdIabOguuxIqo" class="watch">watch</a>
+               
+            </div>
+            <div class="btn2">
+                  <a href="https://www.ea.com/games/apex-legends" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/fortnite.png"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>34</span>Matches in progress</h4>
+            <p>Fortnite is an online video game and game platform developed by Epic Games and released in 2017.
+               it is a free-to-play battle royale game. </p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/live/OJeCPGlLedI?si=0yjCp9B1yhfhp7_3" class="watch">watch</a>
+               
+            </div>
+            <div class="btn2">
+                  <a href="https://www.fortnite.com" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/pubg_Pc.jpg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>42</span>Matches in progress</h4>
+            <p>PUBG: Battlegrounds (previously known as PlayerUnknown's Battlegrounds) is a 
+                battle royale game developed by PUBG Studios and published by Krafton.  </p>
+            <div class="btn1">
+                <a href="https://www.youtube.com/live/tloddKMz4Pk?si=V1wqe9l8bGI4cjtH" class="watch">watch</a>
+                
+            </div>
+            <div class="btn2">
+                  <a href="https://pubg.com/en-asia" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box">
+        <img src="tourny card/maxresdefault.jpg"  height="170px" width="100%">
+        <div class="content">
+            <h4><span>32</span>Matches in progress</h4>
+            <p>League of Legends commonly referred to as League, is a
+                 2009 multiplayer online battle arena and published by Riot Games.  </p>
+            <div class="btn1">
+                <a href="https://youtu.be/S_5vlPXLCRc?si=J1qDFHr5QpCUg2gZ" class="watch">watch</a>
+            </div>
+            <div class="btn2">
+                  <a href="https://www.leagueoflegends.com/en-gb" class="moreinfo">More info</a>
+            </div>
+        </div>
+    </div>
+
+  </div>
+</div> 
+</section>    
+    
+<!-- <----------------------------------------------------------->    
+
+
+
+
+    <!-- <! footer part  -->
+    <section id ="footer">
+        <div class="container">  
+          <input type="radio" name="dot" id="one">
+          <input type="radio" name="dot" id="two">
+          <div class="main-card">
+            <div class="cards">
+              <div class="card">
+               <div class="content">
+                 <div class="img">
+                   <img src="our photo/my photo.jpg" alt="">
+                 </div>
+                 <div class="details">
+                   <div class="name">Sagnik Saha</div>
+                   <div class="job">Front End Developer</div>
+                 </div>
+                 <div class="media-icons">
+                   <a href="https://www.linkedin.com/in/sagnik-saha-656a1225b"><i class="fab fa-linkedin"></i></a>
+                   <a href="https://github.com/sagnik81599"><i class="fab fa-github"></i></a>
+                 </div>
+               </div>
+              </div>
+              <div class="card">
+               <div class="content">
+                 <div class="img">
+                   <img src="our photo/nadia.png" alt="">
+                 </div>
+                 <div class="details">
+                   <div class="name">Nadia chand mondal</div>
+                   <div class="job">Front End Developer</div>
+                 </div>
+                 <div class="media-icons">
+                  <a href="https://www.linkedin.com/in/nadia-chand-mondal-7b8698274/"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/Nadiachandmondal"><i class="fab fa-github"></i></a>
+                 </div>
+               </div>
+              </div>
+              <div class="card">
+               <div class="content">
+                 <div class="img">
+                   <img src="our photo/fb dp.jpg" alt="">
+                 </div>
+                 <div class="details">
+                   <div class="name">Bishal Das</div>
+                   <div class="job">Front End Developer</div>
+                 </div>
+                 <div class="media-icons">
+                  <a href="https://www.linkedin.com/in/bishal-das-76a47423a/"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/BishalDas204"><i class="fab fa-github"></i></a>
+                 </div>
+               </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="button">
+            <label for="one" class=" active one"></label>
+            <label for="two" class="two"></label>
+          </div>
+        </div> 
+    </section>
+  
+
+
+<!-- footer part 2 -->
+    <footer class="footer2">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Terms & conditions</h4>
+                    <ul>
+                        <li><a href="#about-section">about us</a></li>
+                        <li><a href="#344">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#432">FAQ</a></li>
+                        <li><a href="#footer">contacts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Online tournament</h4>
+                    <ul>
+                        <li><a href="#23">watch</a></li>
+                        <li><a href="#234">join</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#123"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#13"><i class="fab fa-twitter"></i></a>
+                        <a href="#13"><i class="fab fa-instagram"></i></a>
+                        <a href="#112"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <br>
+        
+<script src="script.js"></script>
+
+
+</body>
+</html>
